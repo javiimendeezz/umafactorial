@@ -1,0 +1,16 @@
+comando(item primer uso):explicación
+
+mkdir(0): para crear el directorio de la asignatura en el que alojaré el repositorio local
+cd(0): Para navegar entre directorios
+ls(0): para inspeccionar el contenido de un directorio
+rm -rf(0): para eliminar un directorio y todo su contenido automaticamente, tuve la necesidad de hacerlo tras un error
+git clone nombre_repositorio(1): clona el repositorio remoto en local
+touch(2): para crear un fichero nuevo
+git add(3): para añadir cambios al stagging area, como paso previo al commit.
+got commit -m "..."(3): añade los cambios implementados en add al repositorio local incluyendo un mensaje firmado con las credenciales indicadas en el ultimo registro
+cat(3): inspeccionar en terminal el contenido de un fichero
+git status(3): Para visualizar la situación de los archivos dentro del repositorio
+git push(5): Para subir al repositorio remoto los cambios introducidos en el repositorio local desde el que se ejecuta
+git checkout(5): para cambiar de rama, si añadimos el parámetro -b y un nombre crearemos una nueva rama con el nombre y cambiaremos directamente a ella
+git merge nombre_rama(12): Combina el contenido de dos ramas
+git stash(15):Guarda los cambios locales no confirmados en el repositorio para poder trabajar en otra cosa. Cuando queramos volver a trabajar en esto y recuperar los cambios ejecutamos git stash pop
